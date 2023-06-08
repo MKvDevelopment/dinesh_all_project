@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 32
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.work_int.athome"
+        minSdkVersion 23
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation platform('com.google.firebase:firebase-bom:30.2.0')
+    implementation 'com.google.firebase:firebase-inappmessaging-display'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'  //sign in with google
+    implementation 'com.airbnb.android:lottie:5.2.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+
+    implementation fileTree(dir: "libs", include: ["*.aar"]) //unity ads library folder path
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.6.11'
+    //country code picker library
+    implementation 'com.hbb20:ccp:2.5.3'
+    implementation 'com.github.Shashank02051997:FancyGifDialog-Android:1.1'
+    implementation project(path: ':library')  //spin dependency
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+   //paypal
+
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.14.2'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

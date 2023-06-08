@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "753959455236",
+    "project_id": "spin-to-win2",
+    "storage_bucket": "spin-to-win2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753959455236:android:ea49b9ea49f87e2477c351",
+        "android_client_info": {
+          "package_name": "com.zlspin.earn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "753959455236-qc5i7dua68355opjfvo4pn3rq6rs9lfq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zlspin.earn",
+            "certificate_hash": "c955c7a7caf0825697aea2be75a21c833020c08e"
+          }
+        },
+        {
+          "client_id": "753959455236-9nqtfs5scri29fpno2k966j97ltlc5hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtAZDnJQ3VGoKl5T048Z7wvxAdOxMVKhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "753959455236-9nqtfs5scri29fpno2k966j97ltlc5hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

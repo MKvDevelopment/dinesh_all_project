@@ -1,0 +1,6 @@
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">haryanviexpress.com</domain>
+        <domain includeSubdomains="true">floatrates.com</domain>
+    </domain-config>
+</network-security-config>

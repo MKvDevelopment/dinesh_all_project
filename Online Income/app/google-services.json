@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "138478114913",
+    "project_id": "online-income-60386",
+    "storage_bucket": "online-income-60386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138478114913:android:bac00675200a1c81fff220",
+        "android_client_info": {
+          "package_name": "com.onlineincome.earning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138478114913-j3t2rnj5qiji4gass8lf3o8549u60cv1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.onlineincome.earning",
+            "certificate_hash": "c955c7a7caf0825697aea2be75a21c833020c08e"
+          }
+        },
+        {
+          "client_id": "138478114913-m1b9ls5j3u9ob4325vc0hrsa0630t044.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_2_SvbobZb_G_YcwKFTMt9JEQW5CAUUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138478114913-m1b9ls5j3u9ob4325vc0hrsa0630t044.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Skin Care Studio</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="affiliate_program">Affiliate Program</string>
+    <string name="my_purchased_course">My Purchased Course</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="consult_with_us">Consult with us</string>
+    <string name="about_us">About Us</string>
+    <string name="our_services">Our Services</string>
+    <string name="contect_us">Contect Us</string>
+    <string name="refund_amp_cancellation_policy"><![CDATA[Refund & Cancellation Policy]]></string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="withdraw_now">Withdraw Now</string>
+    <string name="add_balance">Add Balance</string>
+    <string name="wallet">Wallet:-</string>
+    <string name="enter_refer_code">Enter refer code</string>
+    <string name="verify">Verify</string>
+    <string name="your_refer_code">Your refer code</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="you_are_frefered">you are frefered</string>
+    <string name="referral_friend">How you can earn by promoting your course. When your friend or any other user uses your referral code and buys our course then you receive a 30% commission on the course amount, purchased by your referral friend.</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Skin Care Studio Admin</string>
+    <string name="update">Update</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_subtitle">Enter SubTitle</string>
+    <string name="enter_title">Enter title</string>
+    <string name="enter_product_price">Enter Product Price</string>
+    <string name="enter_product_link">Enter Product Link</string>
+    <string name="update_now">Update Now</string>
+    <string name="add_buying_product">Add Buying Product</string>
+    <string name="add_web_link">Add web link</string>
+    <string name="hello">hello</string>
+    <string name="link">link</string>
+    <string name="price">price</string>
+    <string name="sbtittle">sbtittle</string>
+    <string name="title">title</string>
+    <string name="todo">TODO</string>
+    <string name="textview">TextView</string>
+</resources>

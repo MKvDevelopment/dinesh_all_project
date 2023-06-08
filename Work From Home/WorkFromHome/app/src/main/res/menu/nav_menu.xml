@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+       <!-- <item
+            android:id="@+id/menu_noti"
+            android:icon="@drawable/ic_baseline_notifications"
+            android:title="Notifications" />-->
+        <item
+            android:id="@+id/menu_getMoreMoney"
+            android:icon="@mipmap/upgrade_png"
+            android:title="Extra Work" />
+
+        <item
+            android:id="@+id/menu_withdraw"
+            android:icon="@mipmap/withdraw_removebg"
+            android:title="WithDraw Money" />
+
+        <item
+            android:id="@+id/menu_refer"
+            android:icon="@mipmap/share1_png"
+            android:title="Refer &amp; Earn" />
+
+        <item
+            android:id="@+id/menu_contect_by_mail"
+            android:icon="@mipmap/email_icon"
+            android:title="Contact by Email" />
+
+        <item
+            android:id="@+id/menu_watsp"
+            android:icon="@mipmap/watspp_png"
+            android:title="Contact by WhatsApp" />
+
+        <item
+            android:id="@+id/menu_call_us"
+            android:icon="@mipmap/call_png"
+            android:title="Contact by Call" />
+
+        <item
+            android:id="@+id/menu_terms"
+            android:icon="@mipmap/share_png"
+            android:title="Terms &amp; conditoions" />
+        <item
+            android:id="@+id/menu_privacy_policy"
+            android:icon="@mipmap/privacy_icon"
+            android:title="Privacy policy" />
+        <item
+            android:id="@+id/menu_logout"
+            android:icon="@mipmap/quit"
+            android:title="Exit" />
+
+    </group>
+
+</menu>

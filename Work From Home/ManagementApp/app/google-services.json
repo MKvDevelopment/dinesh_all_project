@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "733619931299",
+    "firebase_url": "https://work-from-home-e120e.firebaseio.com",
+    "project_id": "work-from-home-e120e",
+    "storage_bucket": "work-from-home-e120e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733619931299:android:7799a08d44d1724d4bd716",
+        "android_client_info": {
+          "package_name": "com.dinesh.adminwrokfromhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733619931299-0mjodkhbme357g6ndm5dmnb03d62ortp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dinesh.adminwrokfromhome",
+            "certificate_hash": "2b36343d89c23d066eb0ad4e8bd6fd1fc9403210"
+          }
+        },
+        {
+          "client_id": "733619931299-nhov26e87v8qi3mon3p9rpuahslndao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHxQ_0A2wV8hC9BlNzGh8XWzOuZYVSd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733619931299-nhov26e87v8qi3mon3p9rpuahslndao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733619931299:android:46f1968f8d814eeb4bd716",
+        "android_client_info": {
+          "package_name": "com.hr_developers.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733619931299-2un5igr8cl47iiipkjq0mdcdanm6imip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hr_developers.myapplication",
+            "certificate_hash": "2b36343d89c23d066eb0ad4e8bd6fd1fc9403210"
+          }
+        },
+        {
+          "client_id": "733619931299-nhov26e87v8qi3mon3p9rpuahslndao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHxQ_0A2wV8hC9BlNzGh8XWzOuZYVSd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733619931299-nhov26e87v8qi3mon3p9rpuahslndao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733619931299:android:d1a3d83014c1ed934bd716",
+        "android_client_info": {
+          "package_name": "com.workfromhomejob.onlineincome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733619931299-q3a8ro68lnd9o0ptdp4lh7i4e7qvhdl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workfromhomejob.onlineincome",
+            "certificate_hash": "2b36343d89c23d066eb0ad4e8bd6fd1fc9403210"
+          }
+        },
+        {
+          "client_id": "733619931299-nhov26e87v8qi3mon3p9rpuahslndao3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHxQ_0A2wV8hC9BlNzGh8XWzOuZYVSd4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733619931299-nhov26e87v8qi3mon3p9rpuahslndao3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

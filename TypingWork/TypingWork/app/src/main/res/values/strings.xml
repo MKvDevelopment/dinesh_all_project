@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Typing Work</string>
+    <string name="second_remaining">Seconds remaining :-</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="dont_recive">Don\'t receive otp ?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Work From Home</string>
+    <string name="nav_header_subtitle">Earn Unlimited to Work With Us!</string>
+    <string name="activation_pending_english">Your withdrawal request is successfully received by us. We will pay the amount within the next 24 hours in your bank account. Please wait patiently. You can wait for Payment or continue your work with the given option.</string>
+    <string name="activation_pending_hindi">आपका निकासी अनुरोध हमें सफलतापूर्वक प्राप्त हुआ है। हम अगले 24 घंटों के भीतर आपके बैंक खाते में राशि का भुगतान कर देंगे। कृपया धैर्यपूर्वक प्रतीक्षा करें। आप भुगतान की प्रतीक्षा कर सकते हैं या दिए गए विकल्प के साथ अपना काम जारी रख सकते हैं।</string>
+
+    <string name="activation_success_english">Congrats 🥳🥳\nYou received your money in your bank account. If did not receive please tell us on live chat. You can continue your work to click on the get unlimited work button. You can see also payment proof.</string>
+    <string name="activation_success_hindi">बधाई हो 🥳🥳\nआपको आपका पैसा आपके बैंक खाते में मिल गया है। अगर प्राप्त नहीं हुआ तो कृपया हमें लाइव चैट पर बताएं। असीमित कार्य प्राप्त करें बटन पर क्लिक करके आप अपना काम जारी रख सकते हैं। आप भुगतान प्रमाण भी देख सकते हैं।</string>
+
+    <string name="default_notification_channel_id">default</string>
+
+</resources>

@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "1055459891657",
+    "firebase_url": "https://perfect-traders-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "perfect-traders",
+    "storage_bucket": "perfect-traders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055459891657:android:2ee563597e8763bd5d7018",
+        "android_client_info": {
+          "package_name": "admin.perfect.trader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055459891657-27v3tkr2bu4rf52bmvvgp3psi16qvdgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "admin.perfect.trader",
+            "certificate_hash": "eb8b99206593cbe0524df24609a34c2e4f053ae4"
+          }
+        },
+        {
+          "client_id": "1055459891657-vor9q3t1dffarl829ou59fjlr2mn38cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsmdaadmWoGRIHAUvQy7oDh5lkBkavLnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055459891657-vor9q3t1dffarl829ou59fjlr2mn38cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055459891657:android:9b534a50b63943315d7018",
+        "android_client_info": {
+          "package_name": "com.perfect.trader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055459891657-4k13kevciucu9tqiojtjr40ffvvocv2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.perfect.trader",
+            "certificate_hash": "eb8b99206593cbe0524df24609a34c2e4f053ae4"
+          }
+        },
+        {
+          "client_id": "1055459891657-e2jer14tcqao3f3bi2lc22pml17tjcmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.perfect.trader",
+            "certificate_hash": "3c73b3b6a0ec198012c772d3577d5d2e23716a13"
+          }
+        },
+        {
+          "client_id": "1055459891657-v9rs0omkgfos0glt7j2b34gulhv69ke1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.perfect.trader",
+            "certificate_hash": "622d9659ac0448283b7b2f833768c9f84328727a"
+          }
+        },
+        {
+          "client_id": "1055459891657-vor9q3t1dffarl829ou59fjlr2mn38cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsmdaadmWoGRIHAUvQy7oDh5lkBkavLnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055459891657-vor9q3t1dffarl829ou59fjlr2mn38cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

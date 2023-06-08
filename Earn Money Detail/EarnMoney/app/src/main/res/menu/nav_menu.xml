@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <group android:checkableBehavior="single">
+
+
+       <item
+           android:id="@+id/menu_about_us"
+           android:icon="@drawable/ic_aboutus"
+           android:title="About Us" />
+
+       <item
+           android:id="@+id/menu_how_to_join"
+           android:icon="@drawable/ic_howtojoin"
+           android:title="How to Join" />
+       <item
+           android:id="@+id/menu_chat"
+           android:icon="@drawable/ic_chat"
+           android:title="Chat Us" />
+       <item
+           android:id="@+id/menu_whatsp"
+           android:icon="@drawable/ic_chat"
+           android:title="Whatsapp Us" />
+
+       <item
+           android:id="@+id/menu_terms"
+           android:icon="@drawable/icon_terms"
+           android:title="Terms &amp; Conditions" />
+
+       <item
+           android:id="@+id/menu_privacy"
+           android:icon="@drawable/ic_privacy"
+           android:title="Privacy Policy" />
+
+       <item
+           android:id="@+id/menu_logout"
+           android:icon="@drawable/icon_exit"
+           android:title="Logout" />
+
+   </group>
+</menu>

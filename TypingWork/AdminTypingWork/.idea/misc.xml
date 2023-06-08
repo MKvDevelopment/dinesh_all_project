@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/btn_background.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/corner.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/custom_switch_off.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/custom_switch_on.xml" value="0.184" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/ic_chat.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/ic_complete.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/ic_image_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/ic_sadman.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/ic_send.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/ic_smileman.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/reciver.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/drawable/switch_track_selector.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_admin_data_change.xml" value="0.16666666666666666" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_chat.xml" value="0.16145833333333334" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_chat_detail.xml" value="0.4466666666666667" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_full_screen.xml" value="0.17552083333333332" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_login.xml" value="0.17395833333333333" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_splesh.xml" value="0.17395833333333333" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_user_detail.xml" value="0.17552083333333332" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_wallet_alert.xml" value="0.17552083333333332" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/activity_withdraw.xml" value="0.14444444444444443" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/chat_user_detail.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/custom_spinner.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/custom_spinner_dropdown.xml" value="0.1" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/message.xml" value="0.17395833333333333" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/user.xml" value="0.5" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/wallet_alert_layout_item.xml" value="0.22" />
+        <entry key="..\:/Flutter/Dinesh/TypingWork/AdminTypingWork/app/src/main/res/layout/withdraw_layout_item.xml" value="0.17552083333333332" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

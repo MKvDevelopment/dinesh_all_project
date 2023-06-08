@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "349834706580",
+    "project_id": "captcha-international",
+    "storage_bucket": "captcha-international.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349834706580:android:6285bed3ead2f4c447be81",
+        "android_client_info": {
+          "package_name": "com.work_int.athome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349834706580-0r26v5vu2osja6suim7thahinul5m656.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.work_int.athome",
+            "certificate_hash": "eb8b99206593cbe0524df24609a34c2e4f053ae4"
+          }
+        },
+        {
+          "client_id": "349834706580-3tp70c17bos55to3c2bnbjcvbb1vnbsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk7WvJ3rOefspFo7oI32pNBycsItv02Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349834706580-3tp70c17bos55to3c2bnbjcvbb1vnbsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 30
+    buildToolsVersion = '29.0.3'
+    defaultConfig {
+        applicationId "com.spin.wheelgame"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.google.android.material:material:1.6.0-alpha01'
+
+
+    implementation 'com.google.firebase:firebase-firestore:24.0.0'
+    implementation 'com.github.ViksaaSkool:AwesomeSplash:v1.0.0'      //Splash Screen
+    implementation 'com.adefruandta.spinningwheel:spinningwheel:0.1.0'    //spinning wheel
+    implementation 'com.github.Shashank02051997:FancyGifDialog-Android:1.1'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'com.airbnb.android:lottie:3.6.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0' //for sign in button
+    implementation project(path: ':library')
+
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.5.4'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+
+    implementation 'com.firebaseui:firebase-ui-database:8.0.0'
+    implementation 'com.firebaseui:firebase-ui-firestore:8.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.volley:volley:1.2.0' // http request
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.braintreepayments:card-form:3.1.1'
+
+
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeBet Color Game</string>
+    <string name="todo">TODO</string>
+    <string name="don_t_have_any_account">Don\'t have any Account?</string>
+
+    <string name="register_here">Register Here</string>
+
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="login_here">Login Here</string>
+    <string name="your_password">Your Password</string>
+    <string name="registered_email">Enter Registered Email</string>
+    <string name="referral_friend">How you can earn by promoting your course. When your friend or any other user uses your referral code and buys our course then you receive a 30% commission on the course amount, purchased by your referral friend.</string>
+
+</resources>

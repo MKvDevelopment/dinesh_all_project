@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_ligit">#93BCDD</color>
+    <color name="primary_dark">#0C7EB1</color>
+    <color name="text_color_white">#ffffff</color>
+    <color name="page_background">#533E82</color>
+    <color name="purple_700">#93BCDD</color>
+    <color name="teal_200">#0C7EB1</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="alert_btn_color">#2878AF</color>
+</resources>

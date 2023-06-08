@@ -1,0 +1,116 @@
+{
+  "project_info": {
+    "project_number": "613933141195",
+    "project_id": "social-media-saver-2c03e",
+    "storage_bucket": "social-media-saver-2c03e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613933141195:android:e0304be9ba605e56e3df4e",
+        "android_client_info": {
+          "package_name": "com.dbmediasaver.statussaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613933141195-bt4b4l7p9cqgm3h3uu26b4a6i5ccoc7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dbmediasaver.statussaver",
+            "certificate_hash": "5b35fc7392ee994ab7bf22645711b31b9973b163"
+          }
+        },
+        {
+          "client_id": "613933141195-cl4ugk581d53lkog6tio4t8nr24d9fcn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dbmediasaver.statussaver",
+            "certificate_hash": "22e91ba587707c306470e18beb86ced85c84ff89"
+          }
+        },
+        {
+          "client_id": "613933141195-kd8v3cjuq15957o3k88llu8vsopgh5oj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dbmediasaver.statussaver",
+            "certificate_hash": "1d10d98443d9fb5d5a84d37abfd9cf667bf63fab"
+          }
+        },
+        {
+          "client_id": "613933141195-nd3pggahcj8e1n050ar8abd4a2kh24u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dbmediasaver.statussaver",
+            "certificate_hash": "0a2741f1867641a05b6e89c4a7a849ebe4c87f6f"
+          }
+        },
+        {
+          "client_id": "613933141195-uf4k1k4vjpt00e2te3960iod2uqo6eb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dbmediasaver.statussaver",
+            "certificate_hash": "eb8b99206593cbe0524df24609a34c2e4f053ae4"
+          }
+        },
+        {
+          "client_id": "613933141195-1n5sbpegp2hrkheb031e8263gh1ht4jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh5-a77VNUwxC3pYveKOPG547zyh1MO9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613933141195-1n5sbpegp2hrkheb031e8263gh1ht4jn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613933141195:android:af2bbf05336cc7d8e3df4e",
+        "android_client_info": {
+          "package_name": "com.socialmediasaver.status"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613933141195-a3d6ntr4b59joc2a0670s9gjqj069gog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialmediasaver.status",
+            "certificate_hash": "eb8b99206593cbe0524df24609a34c2e4f053ae4"
+          }
+        },
+        {
+          "client_id": "613933141195-1n5sbpegp2hrkheb031e8263gh1ht4jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh5-a77VNUwxC3pYveKOPG547zyh1MO9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613933141195-1n5sbpegp2hrkheb031e8263gh1ht4jn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

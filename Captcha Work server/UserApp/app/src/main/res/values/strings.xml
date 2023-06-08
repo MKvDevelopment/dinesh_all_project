@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Work At Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="exit">Exit</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="withdrow_money">Withdrow Money</string>
+    <string name="tagline">Work with fun to Earn Money Online</string>
+    <string name="todo">TODO</string>
+    <string name="wallet_balance">wallet balance</string>
+    <string name="by_paytm_no">By Paytm No.</string>
+    <string name="by_upi_id">By UPI Id</string>
+    <string name="submit">Withdraw Now</string>
+    <string name="buySpin">Buy Spin</string>
+    <string name="instant">Instant Activation</string>
+    <string name="enter_your_paytm_no">Enter your Paytm No.</string>
+    <string name="enter_your_captcha">Enter Above Code</string>
+    <string name="per_captcha_income_rs_5">Per code income.</string>
+    <string name="click_here_to">Get Premium to Increase Income</string>
+    <string name="increase_income">Increase Income</string>
+    <string name="now_you_are_eligible_for_withdraw">Now you are eligible for withdraw.</string>
+    <string name="withdraw_here">Withdraw Here</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_plan_details">Update Plan Details</string>
+    <string name="you_will_getting">You will Getting :-</string>
+
+</resources>

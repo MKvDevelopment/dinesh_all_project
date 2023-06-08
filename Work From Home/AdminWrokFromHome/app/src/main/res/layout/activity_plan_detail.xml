@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PlanDetailActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:padding="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/pd_update_ads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@android:color/white"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:text="Update ads data"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintEnd_toEndOf="@+id/pd_per_ad_incom"
+                app:layout_constraintStart_toStartOf="@+id/pd_per_ad_incom"
+                app:layout_constraintTop_toBottomOf="@+id/pd_per_ad_incom" />
+
+            <TextView
+                android:id="@+id/pd_ads_data"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Ads data"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/pd_second_limit"
+                app:layout_constraintStart_toStartOf="@+id/pd_second_limit"
+                app:layout_constraintTop_toBottomOf="@+id/pd_second_limit" />
+
+            <EditText
+                android:id="@+id/pd_per_ad_incom"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Per add income"
+                android:inputType="text"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/pd_ad_seen_limit"
+                app:layout_constraintStart_toStartOf="@+id/pd_ad_seen_limit"
+                app:layout_constraintTop_toBottomOf="@+id/pd_ad_seen_limit" />
+
+            <EditText
+                android:id="@+id/pd_ad_seen_limit"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Add seen limit"
+                android:inputType="number"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="@+id/pd_second_limit"
+                app:layout_constraintStart_toStartOf="@+id/pd_second_limit"
+                app:layout_constraintTop_toBottomOf="@+id/pd_ads_data" />
+
+            <EditText
+                android:id="@+id/pd_second_limit"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Enter second withdraw limit"
+                android:inputType="number"
+                android:padding="5dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pd_first_limit" />
+
+            <EditText
+                android:id="@+id/pd_first_limit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:hint="Enter first withdraw limit"
+                android:inputType="number"
+                android:padding="5dp"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pd_plan_name" />
+
+            <TextView
+                android:id="@+id/pd_plan_name"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/btn_background"
+                android:backgroundTint="@android:color/white"
+                android:ems="10"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="plan name"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

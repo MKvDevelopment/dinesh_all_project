@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/subscription"
+            android:icon="@drawable/ic_baseline_block"
+            android:title="Remove Ads" />
+
+        <item
+            android:id="@+id/menu_restore"
+            android:icon="@drawable/ic_restore"
+            android:title="Restore Purchase" />
+
+        <item
+            android:id="@+id/menu_whatsp"
+            android:icon="@drawable/ic_chat"
+            android:title="WhatsApp Us" />
+
+        <item
+            android:id="@+id/menu_promotion"
+            android:icon="@drawable/ic_promotion"
+            android:title="Promotion With Us" />
+
+        <item
+            android:id="@+id/menu_aboutus"
+            android:icon="@drawable/ic_privacy"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/menu_rate"
+            android:icon="@drawable/ic_rate"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/menu_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="FeedBack" />
+
+        <item
+            android:id="@+id/menu_policy"
+            android:icon="@drawable/icon_terms"
+            android:title="Privacy Policy" />
+
+
+    </group>
+</menu>

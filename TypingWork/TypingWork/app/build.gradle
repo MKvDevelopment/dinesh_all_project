@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('/Volumes/MyFiles/Project/Dinesh/TypingWork/signed.jks')
+            storePassword 'signed123'
+            keyAlias 'key0'
+            keyPassword 'signed123'
+        }
+    }
+    namespace 'com.typingwork.jobathome'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.typingwork.jobathome"
+        minSdk 23
+        targetSdk 33
+        versionCode 20
+        versionName "4.8.5"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.release
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.android.material:material:1.7.0'
+
+    implementation 'com.airbnb.android:lottie:5.2.0'
+    implementation platform('com.google.firebase:firebase-bom:30.3.1')
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-core'
+    implementation 'com.google.firebase:firebase-auth' //for Mobile Authentication login
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'//for Google Signin
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-inappmessaging-display'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.karumi:dexter:6.2.3'
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.6.11'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'com.github.delight-im:Android-AdvancedWebView:v3.2.1'
+    //given aar file path from live project folder
+    implementation files("/Volumes/MyFiles/Project/Dinesh/TypingWork/unity-ads.aar")
+    // adding new module step is file->new -> new Module-> android library -> file name ->finish
+    implementation project(path: ':mylibrary')
+
+    implementation "androidx.core:core-ktx:1.9.0"
+    //noinspection GradleDependency
+    implementation 'com.razorpay:checkout:1.6.26'  //Razorpay dependency
+
+
+
+
+}

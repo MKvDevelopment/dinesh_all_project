@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Perfect Trader</string>
+
+    <string name="navigation_drawer_open">Open nevigation</string>
+    <string name="navigation_drawer_close">Closer nevigation</string>
+    <string name="detail">For call accuracy view our previous call. make decisions, and start income from the market.</string>
+    <string name="refer_now">Refer Now</string>
+    <string name="call_us">Contact Us</string>
+    <string name="live_call">Today Call</string>
+    <string name="workwithus">Trade With Us</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="benifit">Benifit:-</string>
+    <string name="your_password">Your Password</string>
+
+    <string name="registered_email">Enter Registered Email</string>
+    <string name="market_strategy_course">Market Strategy Course</string>
+    <string name="about_us">About Us</string>
+    <string name="refund"><![CDATA[Refund & Cancellation Policy]]></string>
+
+    <string name="default_notification_channel_id">default</string>
+
+</resources>

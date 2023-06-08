@@ -1,0 +1,14 @@
+<resources>
+    <array name="rainbow">
+        <item>@color/wheel_2</item>
+        <item>@color/wheel_3</item>
+        <item>@color/wheel_4</item>
+        <item>@color/wheel_6</item>
+        <item>@color/wheel_7</item>
+        <item>@color/wheel_11</item>
+    </array>
+    <string name="navigation_drawer_open">Open nevigation</string>
+    <string name="navigation_drawer_close">Closer nevigation</string>
+
+    <string name="app_name">Work From Home</string>
+</resources>

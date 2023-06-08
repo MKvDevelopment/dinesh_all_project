@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/insta_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:title="Download Profile"
+            app:titleTextColor="@color/white" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/insta_toolbar"
+                android:gravity="center_vertical"
+                android:id="@+id/instalogin">
+                <TextView
+                    android:id="@+id/tvViewStories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_search"
+                    android:textSize="13dp"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login"
+                    android:padding="@dimen/_8sdp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:background="@drawable/selected_tab"
+                    android:backgroundTint="@color/green_100"
+                    android:id="@+id/tvLogin1"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:focusableInTouchMode="false"
+                    />
+
+            </LinearLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/startAppInstasearch"
+            android:layout_below="@id/insta_toolbar">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <!--                <LinearLayout-->
+                <!--                    android:id="@+id/instalogin"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="10dp"-->
+                <!--                    android:visibility="visible"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    android:layout_centerInParent="true">-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/tvViewStories"-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:padding="10dp"-->
+                <!--                        android:text="@string/view_search"-->
+                <!--                        android:textAlignment="center"-->
+                <!--                        android:textColor="@color/black"-->
+                <!--                        android:textSize="13dp"-->
+                <!--                        />-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/tvLogin1"-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginStart="30dp"-->
+                <!--                        android:layout_marginEnd="30dp"-->
+                <!--                        android:layout_marginBottom="10dp"-->
+                <!--                        android:background="@drawable/selected_tab"-->
+                <!--                        android:backgroundTint="@color/green_100"-->
+                <!--                        android:gravity="center"-->
+                <!--                        android:padding="8dp"-->
+                <!--                        android:text="@string/login"-->
+                <!--                        android:textColor="@color/white" />-->
+
+                <!--                </LinearLayout>-->
+
+                <LinearLayout
+                    android:id="@+id/serachLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:text="No result found"
+                        android:textSize="@dimen/_14sdp"
+                        android:visibility="gone" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:elevation="5dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        app:cardCornerRadius="5dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/searchEditText"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@color/white"
+                                android:drawableLeft="@drawable/search_icon1"
+                                android:drawablePadding="15dp"
+                                android:drawableTint="@color/black"
+                                android:hint="Search Username..."
+                                android:imeOptions="actionSearch"
+                                android:inputType="text"
+                                android:paddingLeft="20dp"
+                                android:singleLine="true"
+                                android:textSize="16sp" />
+
+                            <ProgressBar
+                                android:id="@+id/serach_progress"
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="@dimen/_8sdp"
+                                android:visibility="gone" />
+
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.startapp.sdk.ads.banner.Banner
+            android:id="@+id/startAppInstasearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

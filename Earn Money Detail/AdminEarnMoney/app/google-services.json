@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "815048410850",
+    "firebase_url": "https://my-dream-565b2-default-rtdb.firebaseio.com",
+    "project_id": "my-dream-565b2",
+    "storage_bucket": "my-dream-565b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815048410850:android:0768ce7dcf463fe036c0bb",
+        "android_client_info": {
+          "package_name": "com.earnmoney.adminearnmoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815048410850-1obhpva0blqng2ervaqg011tumev9p5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.earnmoney.adminearnmoney",
+            "certificate_hash": "c955c7a7caf0825697aea2be75a21c833020c08e"
+          }
+        },
+        {
+          "client_id": "815048410850-vmpfibcs3vlffl8r3s94c2kc3c019kka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_-u3v6kMdVJ5PJHXocrb86eVqQs5ccxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815048410850-vmpfibcs3vlffl8r3s94c2kc3c019kka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815048410850:android:5ef9f1414444b7fe36c0bb",
+        "android_client_info": {
+          "package_name": "com.earnmoney.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815048410850-ohalb8jienpptj6cc5osumushr4ud77h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.earnmoney.chatapp",
+            "certificate_hash": "c955c7a7caf0825697aea2be75a21c833020c08e"
+          }
+        },
+        {
+          "client_id": "815048410850-vmpfibcs3vlffl8r3s94c2kc3c019kka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_-u3v6kMdVJ5PJHXocrb86eVqQs5ccxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815048410850-vmpfibcs3vlffl8r3s94c2kc3c019kka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815048410850:android:37fe4a212d96a10c36c0bb",
+        "android_client_info": {
+          "package_name": "com.earnmoney.joinwithus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815048410850-e4kc8nrvo8e07siereia2hecus4ethq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.earnmoney.joinwithus",
+            "certificate_hash": "c955c7a7caf0825697aea2be75a21c833020c08e"
+          }
+        },
+        {
+          "client_id": "815048410850-vmpfibcs3vlffl8r3s94c2kc3c019kka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_-u3v6kMdVJ5PJHXocrb86eVqQs5ccxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815048410850-vmpfibcs3vlffl8r3s94c2kc3c019kka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

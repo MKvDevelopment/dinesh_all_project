@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_course"
+            android:icon="@drawable/ic_course"
+            android:title="@string/market_strategy_course" />
+
+        <item
+            android:id="@+id/menu_today_call"
+            android:icon="@drawable/ic_live_call"
+            android:title="@string/live_call" />
+
+        <item
+            android:id="@+id/menu_contact_us"
+            android:icon="@drawable/ic_call"
+            android:title="@string/call_us" />
+
+        <item
+            android:id="@+id/menu_about_us"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/menu_refund"
+            android:icon="@drawable/ic_refund"
+            android:title="@string/refund" />
+
+        <item
+            android:id="@+id/menu_terms"
+            android:icon="@drawable/ic_terms"
+            android:title="@string/terms_amp_conditions" />
+
+        <item
+            android:id="@+id/menu_privacy"
+            android:icon="@drawable/ic_policy"
+            android:title="@string/privacy_policy" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/logout" />
+    </group>
+</menu>

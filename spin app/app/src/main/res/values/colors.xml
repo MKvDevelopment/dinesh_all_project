@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#68B5F3</color>
+    <color name="colorPrimaryDark">#5EA1D6</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="white">#ffff</color>
+    <color name="wheel_1">#9b0103</color>
+    <color name="wheel_2">#da1114</color>
+    <color name="wheel_3">#f58231</color>
+    <color name="wheel_4">#ffe119</color>
+    <color name="wheel_5">#bfef45</color>
+    <color name="wheel_6">#3cb44b</color>
+    <color name="wheel_7">#42d4f4</color>
+    <color name="wheel_8">#4363d8</color>
+    <color name="wheel_9">#1033d1</color>
+    <color name="wheel_10">#911eb4</color>
+    <color name="wheel_11">#f032e6</color>
+    <color name="wheel_12">#e6beff</color>
+
+
+    <color name="c1">#ff6698</color>
+    <color name="c2">#ffb366</color>
+    <color name="c3">#ffff66</color>
+    <color name="c4">#98ff66</color>
+    <color name="c5">#6698ff</color>
+
+    <color name="colorText">#ffffff</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+</resources>

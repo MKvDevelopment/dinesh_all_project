@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_userimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:elevation="3dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/nav_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+        android:text="Work From Home"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:gravity="start"  />
+
+    <TextView
+        android:id="@+id/nav_useremail"
+        android:layout_width="wrap_content"
+        android:elevation="3dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Part time Work"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:gravity="start"  />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+</LinearLayout>

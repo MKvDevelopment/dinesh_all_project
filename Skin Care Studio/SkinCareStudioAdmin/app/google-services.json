@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "207100436114",
+    "firebase_url": "https://skin-care-studio.firebaseio.com",
+    "project_id": "skin-care-studio",
+    "storage_bucket": "skin-care-studio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207100436114:android:3210de3b126c4f124b104b",
+        "android_client_info": {
+          "package_name": "com.skincarestudio.skincarestudioadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207100436114-0mrs7soulj2n478chi1td9771ec6c9rm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skincarestudio.skincarestudioadmin",
+            "certificate_hash": "2b36343d89c23d066eb0ad4e8bd6fd1fc9403210"
+          }
+        },
+        {
+          "client_id": "207100436114-vua4pfq8clbj4junorbnud0fl8urc303.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSfOaHXky5FuTl0W2j6Ejvwol9m9htb6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207100436114-vua4pfq8clbj4junorbnud0fl8urc303.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207100436114:android:1a66ecbfcc1098144b104b",
+        "android_client_info": {
+          "package_name": "com.skincarestudio.solution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207100436114-qk3ob2sl51op4prjurlud1iceagn743u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.skincarestudio.solution",
+            "certificate_hash": "2b36343d89c23d066eb0ad4e8bd6fd1fc9403210"
+          }
+        },
+        {
+          "client_id": "207100436114-vua4pfq8clbj4junorbnud0fl8urc303.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSfOaHXky5FuTl0W2j6Ejvwol9m9htb6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207100436114-vua4pfq8clbj4junorbnud0fl8urc303.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

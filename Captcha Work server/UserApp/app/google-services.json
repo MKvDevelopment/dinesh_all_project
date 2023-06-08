@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "527754066867",
+    "project_id": "work-at-home-e4c58",
+    "storage_bucket": "work-at-home-e4c58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527754066867:android:a6bd6f01e38485bbb0a9c6",
+        "android_client_info": {
+          "package_name": "com.workz.athome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527754066867-rd5l2p5lch77do0at2o4hjl1o8bc78ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.workz.athome",
+            "certificate_hash": "eb8b99206593cbe0524df24609a34c2e4f053ae4"
+          }
+        },
+        {
+          "client_id": "527754066867-iiei4v6g2roh3adsq6hhavbqj038e8qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLvb9Jbo1Tk5ay0qjOQo984J14Y9v679o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527754066867-iiei4v6g2roh3adsq6hhavbqj038e8qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

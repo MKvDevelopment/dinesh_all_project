@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/close"
+            android:tint="@color/black"
+            android:padding="@dimen/_15sdp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select the video format"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14sdp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:id="@+id/layout"
+        android:weightSum="2">
+
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:orientation="vertical"
+           android:gravity="center"
+           android:padding="@dimen/_5sdp"
+           android:background="@drawable/text_view_shape2"
+           android:layout_margin="@dimen/_5sdp"
+           android:id="@+id/layout1">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="720 px"
+               android:textAlignment="center"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_12sdp"
+               android:id="@+id/textview1"/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:id="@+id/layout2"
+
+            android:background="@drawable/text_view_shape2"
+            android:layout_margin="@dimen/_5sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1080 px"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:id="@+id/textview2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="OK"
+        android:paddingRight="@dimen/_18sdp"
+        android:paddingLeft="@dimen/_18sdp"
+        android:paddingTop="@dimen/_8sdp"
+        android:paddingBottom="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_12sdp"
+
+        android:background="@drawable/cancel_rounded_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+
+        android:id="@+id/ok"/>
+
+</LinearLayout>

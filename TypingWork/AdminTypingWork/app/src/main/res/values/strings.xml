@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Admin Typing Work</string>
+    <string name="default_notification_channel_id">default</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="orderFilterList">
+        <item>Filter :-</item>
+        <item>By UserID</item>
+        <item>By Email</item>
+        <item>By Phone No.</item>
+    </string-array>
+    //Spinner filter user's items
+
+
+</resources>

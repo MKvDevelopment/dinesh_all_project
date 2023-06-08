@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "138475379352",
+    "project_id": "earnmoneydemo-f19f1",
+    "storage_bucket": "earnmoneydemo-f19f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138475379352:android:1f67b14959ee1ad48eceed",
+        "android_client_info": {
+          "package_name": "com.earnmoney.joinwithus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138475379352-pmeaonv0igt8d4hkhg2bceaf7trg98q1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.earnmoney.joinwithus",
+            "certificate_hash": "22e91ba587707c306470e18beb86ced85c84ff89"
+          }
+        },
+        {
+          "client_id": "138475379352-7c233pp7luecptp2sdsn0pupu1qugkmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCnFEJjTW_piU2ddXhya4tdXb_NHFQUzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138475379352-7c233pp7luecptp2sdsn0pupu1qugkmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/btn_refer_earn"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Refer and Earn" />
+
+    <item
+        android:id="@+id/btn_earn_more"
+        android:icon="@drawable/ic_attach_money_black_24dp"
+        android:title="Earn More" />
+    <item
+        android:id="@+id/btn_whatsapp"
+        android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+        android:title="Whatsapp Support" />
+
+    <item
+        android:id="@+id/privacy_policy"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="Privacy Policy" />
+
+    <item
+        android:id="@+id/terms"
+        android:icon="@drawable/ic_terms"
+        android:title="Terms &amp; Conditions" />
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Exit" />
+
+</menu>

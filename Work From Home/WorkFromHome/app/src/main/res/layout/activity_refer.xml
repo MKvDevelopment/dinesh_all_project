@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Activity.ReferActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_background"
+            android:scaleType="centerInside"
+            android:src="@drawable/image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/referToolbar" />
+
+        <TextView
+            android:id="@+id/refer_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Enter refer code &amp; get more Money"
+            android:textColor="@color/colorText"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/refer_edit_text"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/colorText"
+            android:elevation="3dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter refer code"
+            android:inputType="text"
+            android:maxLength="8"
+            android:padding="12dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/refer_amount"
+            app:layout_constraintStart_toStartOf="@+id/refer_amount"
+            app:layout_constraintTop_toBottomOf="@+id/refer_amount" />
+
+        <Button
+            android:id="@+id/verify_code_btn"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/colorText"
+            android:elevation="3dp"
+            android:padding="10dp"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/refer_edit_text"
+            app:layout_constraintStart_toStartOf="@+id/refer_edit_text"
+            app:layout_constraintTop_toBottomOf="@+id/refer_edit_text" />
+
+        <TextView
+            android:id="@+id/user_refer_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="Your refer code = 1122334455"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="You have silver plan. In this plan \n you get 20 Rs every successful refer"
+            android:textAlignment="center"
+            android:textColor="@color/colorText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verify_code_btn" />
+
+        <Button
+            android:id="@+id/referFriendsBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/colorText"
+            android:padding="15dp"
+            android:text="Refer Now"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView15"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/user_refer_code" />
+
+        <Button
+            android:id="@+id/upgradePlanBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/colorText"
+            android:padding="15dp"
+            android:text="Upgrade Now"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="@+id/referFriendsBtn"
+            app:layout_constraintStart_toStartOf="@+id/referFriendsBtn"
+            app:layout_constraintTop_toBottomOf="@+id/referFriendsBtn" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/referToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="?attr/colorPrimary"
+            android:elevation="3dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Refer" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

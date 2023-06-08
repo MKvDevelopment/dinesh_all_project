@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light"
+    tools:context=".Activity.ReferActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/refer"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/referToolbar" />
+
+        <TextView
+            android:id="@+id/myReferCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="Your Refer Code is:-fdfsdff"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:text="Your are refered by"
+            android:textColor="@color/text_color_dark"
+            android:textSize="20sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatEditText" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="How you can earn money by refer?\n
+Share this App with your unlimited friends and get you \nand your friend ₹100 on Every Successful Refer."
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="@+id/myReferCode"
+            app:layout_constraintStart_toStartOf="@+id/myReferCode"
+            app:layout_constraintTop_toBottomOf="@+id/appCompatButton2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appCompatButton2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/primary_dark"
+            android:padding="10dp"
+            android:text="Refer Now"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/myReferCode"
+            app:layout_constraintStart_toStartOf="@+id/myReferCode"
+            app:layout_constraintTop_toBottomOf="@+id/myReferCode" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/appCompatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/primary_dark"
+            android:padding="15dp"
+            android:text="Verify"
+            android:textAllCaps="false"
+            android:textColor="@color/text_color_white"
+            app:layout_constraintBottom_toBottomOf="@+id/appCompatEditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/appCompatEditText"
+            app:layout_constraintTop_toTopOf="@+id/appCompatEditText" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/appCompatEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:background="@drawable/btn_background"
+            android:backgroundTint="@color/primary_dark"
+            android:hint="Enter Refer Code"
+            android:padding="15dp"
+            android:maxLength="15"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_white"
+            android:textColorHint="@color/text_color_white"
+            app:layout_constraintEnd_toStartOf="@+id/appCompatButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/referToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primary_dark"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/AppBarOverlay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:popupTheme="@style/PopupOverlay"
+            app:title="Refer &amp; Earn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

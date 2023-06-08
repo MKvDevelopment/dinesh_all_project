@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Activity.UpgradePlanActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/AllPlantoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:theme="@style/ToolbarTheme"
+                app:title="All Plans"
+                app:titleTextColor="@color/colorText" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="30dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_sp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Free plan"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_sp2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text=" . Per post view = 6 paisa.-\n\n
+. Per website visit income = Rs.20 paisa/.-\n\n
+. Plan Validity = LifeTime.\n"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_sp1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            //free plan
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="3dp"
+                app:cardCornerRadius="30dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_gp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Upgrade in Standard plan"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_gp2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text=" . Every post view = 10-15 paisa\n\n
+. Every website visit income = 35 paisa\n\n
+. Extra work = 25 Rs\n\n
+. Email support available.\n\n
+. Every successful refer income = 30 Rs\n\n
+. Withdraw option Paytm only.\n\n
+. Plan Validity = LifeTime.\n"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                    <TextView
+                        android:id="@+id/tv_gp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Price Rs.200/- only"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="25sp"
+                        app:layout_constraintBottom_toTopOf="@+id/btn_standard_plan"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_gp2"
+                        app:layout_constraintStart_toStartOf="@+id/tv_gp2"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_gp2" />
+
+                    <Button
+                        android:id="@+id/btn_standard_plan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/btn_background"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:padding="10dp"
+                        android:text="Upgrade Now"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorText"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_gp3"
+                        app:layout_constraintStart_toStartOf="@+id/tv_gp3"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_gp3" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Your Profit :-"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_gp1"
+                        app:layout_constraintStart_toStartOf="@+id/tv_gp1"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_gp1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            //standard plan
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:elevation="3dp"
+                app:cardCornerRadius="30dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_dp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Upgrade in Advance plan"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_dp2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text=" . Every post view = 20-25 paisa\n\n
+. Every website visit income = 75 paisa\n\n
+. Extra work = 50 Rs.\n\n
+. Email support available.\n\n
+. Whatsapp support available.\n\n
+. Every successful refer income = 70 Rs\n\n
+. Withdraw option Paytm or Google Pay.\n\n
+. Plan Validity = LifeTime.\n"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                    <TextView
+                        android:id="@+id/tv_dp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Price Rs.500/- only"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="25sp"
+                        app:layout_constraintBottom_toTopOf="@+id/btn_advance_plan"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_dp2"
+                        app:layout_constraintStart_toStartOf="@+id/tv_dp2"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_dp2" />
+
+                    <Button
+                        android:id="@+id/btn_advance_plan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/btn_background"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:padding="10dp"
+                        android:text="Upgrade Now"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorText"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_dp3"
+                        app:layout_constraintStart_toStartOf="@+id/tv_dp3"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_dp3" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Your Profit :-"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_dp1"
+                        app:layout_constraintStart_toStartOf="@+id/tv_dp1"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_dp1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            //advance plan
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:elevation="3dp"
+                app:cardCornerRadius="30dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_cp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Upgrade in Super Premimum plan"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_cp2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text=" . Every post view= 40-50 paise\n\n
+. Every website visit income = 1.30 Rs\n\n
+. Extra work = 100 Rs\n\n
+. Email support available.\n\n
+. Whatsapp support available.\n\n
+. Call support available.\n\n
+. Every successful refer income = 150 Rs\n\n
+. Withdraw option Paytm or Google Pay and \n   Bank Transfer available.\n\n
+. Plan Validity = LifeTime.\n"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+                    <TextView
+                        android:id="@+id/tv_cp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="Price Rs.1000/- only"
+                        android:textColor="@android:color/holo_red_light"
+                        android:textSize="25sp"
+                        app:layout_constraintBottom_toTopOf="@+id/btn_premimum_plan"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_cp2"
+                        app:layout_constraintStart_toStartOf="@+id/tv_cp2"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_cp2" />
+
+                    <Button
+                        android:id="@+id/btn_premimum_plan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:background="@drawable/btn_background"
+                        android:backgroundTint="@color/colorPrimary"
+                        android:padding="10dp"
+                        android:text="Upgrade Now"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorText"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_cp3"
+                        app:layout_constraintStart_toStartOf="@+id/tv_cp3"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_cp3" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Your Profit :-"
+                        android:textColor="@color/colorPrimaryDark"
+                        app:layout_constraintEnd_toEndOf="@+id/tv_cp1"
+                        app:layout_constraintStart_toStartOf="@+id/tv_cp1"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_cp1" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            //super premimum plan
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

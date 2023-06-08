@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Admin Wrok From Home</string>
+    <string name="hint">Search</string>
+    <string name="title_activity_main" />
+</resources>

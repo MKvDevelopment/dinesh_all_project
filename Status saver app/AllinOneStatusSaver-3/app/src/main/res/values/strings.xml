@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name" translatable="false">Social Media Saver</string>
+
+    <string name="share_txt" translatable="false">Hey view/download this image</string>
+    <string name="disclemer_text" translatable="false">You should understand that the ownership, intellectual property rights, and any other interests of the Video, Photo, Story,
+        Reels even Highlight on the platform belong to its publishers or owners. We respect such legitimate rights and interests of the publishers or the owners.
+        We recommend you obtain permission before downloading and using the content, also, you shall. This app is not associated with Any Social Media platforms.</string>
+    <string name="share_image_via" translatable="false">Share File via...</string>
+    <string name="share_app_message" translatable="false">Best application for Download Instagram Reels, videos,, post, stories, Facebook videos and send direct message without saving contact. Download Now -</string>
+
+    //admob Test Ads id
+    <!--    <string name="APPLICATION_ID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+    <string name="APPLICATION_ID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="BannerId" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstial_Ad_Id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="Native_Ad_ID" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="Rewarded_ad_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+
+    <!--  //admob original Ads
+      <string name="APPLICATION_ID" translatable="false">ca-app-pub-6258437224449829~7495155830</string>
+      <string name="BannerId" translatable="false">ca-app-pub-6258437224449829/7644890145</string>
+      <string name="Interstial_Ad_Id" translatable="false">ca-app-pub-6258437224449829/7630887205</string>
+
+-->
+    <string name="navigation_drawer_open" translatable="false">Open nevigation</string>
+    <string name="navigation_drawer_close" translatable="false">Closer nevigation</string>
+
+
+    <string name="about_content" translatable="false">Version: 1.0\nDeveloped by:-\ncodingdunia2019@gmail.com</string>
+    <string name="aboutInfo" translatable="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="insta_app_name" translatable="false">Reel &amp; Story</string>
+    <string name="whatsapp_direct" translatable="false">Direct Msg</string>
+    <string name="insta_profile" translatable="false">Save Profile</string>
+    <string name="insta_tag" translatable="false"><![CDATA[Download Instagram Images & Videos]]></string>
+    <string name="whatsapp_app_name" translatable="false">Status Saver</string>
+    <string name="whatsapp_tag" translatable="false"><![CDATA[Save Whatsapp Status Image & Videos]]></string>
+    <string name="facebook_app_name" translatable="false">FB Videos</string>
+    <string name="fcebook_tag" translatable="false">Download Facebook Videos</string>
+    <string name="twitter_app_name" translatable="false">Twitter</string>
+    <string name="twitter_tag" translatable="false"><![CDATA[Download Twitter Images & Videos]]></string>
+    <string name="gallery_name" translatable="false">My Downloads</string>
+    <string name="gallery_tag" translatable="false">View All Your Downloaded Media</string>
+    <string name="aboutus_name" translatable="false">About Us</string>
+    <string name="aboutus_tag" translatable="false">Know More About App</string>
+    <string name="share_app_name" translatable="false">Share App</string>
+    <string name="share_app_tag" translatable="false">Share App with Your Friends</string>
+    <string name="rate_app_name" translatable="false">Rate App</string>
+    <string name="rate_tag" translatable="false">Show Some Love. Rate on Play Store</string>
+
+    <!--About Page-->
+
+    <string name="email_title" translatable="false">Email(For feedback)</string>
+    <string name="email_tag" translatable="false">socialmediasaverhelp@gmail.com</string>
+    <string name="website_title" translatable="false">Website</string>
+    <!--    <string name="website_tag" translatable="false">https://therealshooters.com</string>-->
+    <string name="website_tag" translatable="false">https://socialmediasaver.com</string>
+    <string name="privacy_title" translatable="false">Privacy Policy</string>
+    <string name="privacy_tag" translatable="false">Click to Read Privacy Policy</string>
+    <string name="about_title" translatable="false">About</string>
+    <string name="second_how_too" translatable="false">2. Share with Social Media Saver</string>
+    <string name="fourth_how_too" translatable="false">2. Download with Social Media Saver</string>
+    <string name="prv_policy" translatable="false">Privacy Policy</string>
+    <string name="opn_fb" translatable="false">1. Open Facebook</string>
+    <string name="copy_video_link_frm_fb" translatable="false">1. Copy Video Link from Facebook</string>
+    <string name="enter_url" translatable="false">Enter Url</string>
+    <string name="enter_valid_url" translatable="false">Enter Valid Url</string>
+
+    <string name="do_u_want_to_dlt" translatable="false">Do you want to delete?</string>
+    <string name="file_deleted" translatable="false">File Deleted.</string>
+    <string name="opn_insta" translatable="false">1. Open Instagram</string>
+    <string name="down_insta" translatable="false">1. Download with Social Media Saver</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="do_u_want_to_download_media_from_pvt" translatable="false">Don\'t Want to Download Media from Private Account?</string>
+    <string name="no_net_conn" translatable="false">No Internet Connection</string>
+    <string name="downloadin_video" translatable="false">Downloading Video...</string>
+    <string name="download_complete" translatable="false">Download Completed</string>
+    <string name="pls_bck_again" translatable="false">Please click BACK again to exit</string>
+    <string name="app_not_available" translatable="false">App Not Available.</string>
+    <string name="error_occurred" translatable="false">Error Occurred</string>
+    <string name="open_twitter" translatable="false">1. Open Twitter</string>
+    <string name="no_media_on_tweet" translatable="false">No Media on Tweet or Invalid Link</string>
+    <string name="images" translatable="false">Images</string>
+    <string name="videos" translatable="false">Videos</string>
+    <string name="saved_to" translatable="false">Saved to:</string>
+    <string name="whatsapp_not_installed" translatable="false">Whtasapp not installed.</string>
+    <string name="no_app_installed" translatable="false">No application found to open this file.</string>
+
+    <string name="how_to_download" translatable="false">How to Download</string>
+    <string name="or_download_using_copied_link" translatable="false">or Download using copied link</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="delete" translatable="false">Delete</string>
+    <string name="whatsapp" translatable="false">Whatsapp</string>
+    <string name="download_from_private_account" translatable="false">Download from Private Account</string>
+    <string name="paste_link" translatable="false">Paste Link</string>
+    <string name="without_watermark" translatable="false">Without Watermark</string>
+    <string name="with_watermark" translatable="false">With Watermark</string>
+    <string name="download" translatable="false">Download</string>
+    <string name="paste" translatable="false">Paste</string>
+    <string name="no_result_found" translatable="false">No Result Found</string>
+    <string name="downloading" translatable="false">Downloading...</string>
+    <string name="getting_downloading_link" translatable="false">Getting Downloading Link...</string>
+
+
+    <string name="gallery" translatable="false">My Downloads</string>
+    <string name="download_started" translatable="false">Download Started</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="view_stories" translatable="false">Log in Official website to Download Story and videos from private account.</string>
+    <string name="view_search" translatable="false">Log in Official website to Download profile pic of any account .</string>
+
+    <string name="login" translatable="false">Login</string>
+    <string name="stories" translatable="false">Stories</string>
+
+
+    <string name="facebook_app_id" translatable="false">374465261128827</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb374465261128827</string>
+
+
+    <string name="wait" translatable="false">wait…</string>
+    <string name="title" translatable="false">Sample Activity #%d</string>
+    <string name="insta_API_error" translatable="false">Cannot Download ,Video is Private</string>
+
+
+</resources>

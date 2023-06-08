@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_affiliate"
+            android:icon="@drawable/ic_wallet"
+            android:title="@string/affiliate_program" />
+
+        <item
+            android:id="@+id/nav_my_purchage"
+            android:icon="@drawable/ic_purchage"
+            android:title="@string/my_purchased_course" />
+
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/attach_money"
+            android:title="@string/my_wallet" />
+
+        <item
+            android:id="@+id/nav_consult"
+            android:icon="@drawable/ic_contect_us"
+            android:title="@string/consult_with_us" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@drawable/ic_about"
+            android:title="@string/about_us" />
+
+        <item
+            android:id="@+id/nav_our_service"
+            android:icon="@drawable/ic_service"
+            android:title="@string/our_services" />
+
+        <item
+            android:id="@+id/nav_contect_us"
+            android:icon="@drawable/ic_contect_us"
+            android:title="@string/contect_us" />
+
+        <item
+            android:id="@+id/nav_refund"
+            android:icon="@drawable/ic_refund"
+            android:title="@string/refund_amp_cancellation_policy" />
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_terms"
+            android:title="@string/terms_amp_conditions" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_policy"
+            android:title="@string/privacy_policy" />
+
+
+    </group>
+</menu>

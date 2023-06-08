@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#248bd6</color>
+    <color name="colorPrimaryDark">#0f6bae</color>
+    <color name="colorAccent">#83b8ff</color>
+    <color name="colorText">#ffffff</color>
+
+
+    <color name="wheel_1">#9b0103</color>
+    <color name="wheel_2">#da1114</color>
+    <color name="wheel_3">#f58231</color>
+    <color name="wheel_4">#ffe119</color>
+    <color name="wheel_5">#bfef45</color>
+    <color name="wheel_6">#3cb44b</color>
+    <color name="wheel_7">#42d4f4</color>
+    <color name="wheel_8">#4363d8</color>
+    <color name="wheel_9">#1033d1</color>
+    <color name="wheel_10">#911eb4</color>
+    <color name="wheel_11">#f032e6</color>
+    <color name="wheel_12">#e6beff</color>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_profile"
+            android:title="@string/call_us" />
+
+        <item
+            android:id="@+id/menu_wallet"
+            android:title="@string/refer_now" />
+
+        <item
+            android:id="@+id/menu_referl"
+            android:title="@string/live_call" />
+
+        <item
+            android:id="@+id/menu_terms"
+            android:title="@string/terms_amp_conditions" />
+
+        <item
+            android:id="@+id/menu_privacy"
+            android:title="@string/privacy_policy" />
+
+        <item
+            android:id="@+id/menu_exit"
+            android:title="@string/logout" />
+    </group>
+</menu>

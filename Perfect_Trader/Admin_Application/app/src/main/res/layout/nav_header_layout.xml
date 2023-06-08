@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/primary_dark"
+    android:padding="20dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nav_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:elevation="3dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/ic_logo"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/primary_dark"/>
+
+    <TextView
+        android:id="@+id/nav_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:text="@string/app_name"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/nav_user_email"
+        android:layout_width="wrap_content"
+        android:elevation="3dp"
+        android:layout_height="wrap_content"
+        android:text="Tagline"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:gravity="start" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+
+</LinearLayout>
